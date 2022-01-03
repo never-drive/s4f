@@ -1,0 +1,22 @@
+<button type="button" onclick="enterYear()">Schaltjahr herausfinden</button>
+<script language="javascript" type="text/javascript">
+    function enterYear() {
+        let year = window.prompt('Bitte geben Sie ein Jahr ein.', '2020');
+        if (year) alert('Das Jahr ' + year + ' ist ' + (isLeapYear(year)
+            ? 'ein Schaltjahr!'
+            : 'KEIN Schaltjahr'));
+    }
+
+    /**
+     * Lektion: Abschluss
+     * 7kyu | Leap Years
+     * https://www.codewars.com/kata/526c7363236867513f0005ca/javascript
+     */
+
+    function isLeapYear(year) {
+        if (year % 400 === 0) return true;
+        if (year % 100 === 0) return false;
+        if (year % 4 === 0) return true;
+        return false;
+    }
+</script>
