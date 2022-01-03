@@ -5,4 +5,5 @@
 5. [dictionaries](dictionaries)
 6. [tuples-sets](tuples-sets)
 7. [functions](functions)
-7. [classes](classes)
+8. [classes](classes)
+9. [django](django)
