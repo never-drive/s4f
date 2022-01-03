@@ -5,11 +5,16 @@ class Song:
     pass
 
 
+def test(expected, actual):
+    checkmark = '✔️' if expected == actual else '❌'
+    print(f"{checkmark} expected -> actual: {str(expected)} -> {str(actual)}")
+
+
 mount_moose = Song('Mount Moose', 'The Snazzy Moose')
-print('actual: ' + mount_moose.title + ' expected: ' + 'Mount Moose')
-print('actual: ' + mount_moose.artist + ' expected: ' + 'The Snazzy Moose')
-print('actual: ' + str(mount_moose.how_many(['John', 'Fred', 'Bob', 'Carl', 'RyAn'])) + ' expected: ' + str(5))
-print('actual: ' + str(mount_moose.how_many(['JoHn', 'Luke', 'AmAndA'])) + ' expected: ' + str(2))
-print('actual: ' + str(mount_moose.how_many(['Amanda', 'CalEb', 'CarL', 'Furgus'])) + ' expected: ' + str(2))
-print('actual: ' + str(mount_moose.how_many(['JOHN', 'FRED', 'BOB', 'CARL', 'RYAN', 'KATE'])) + ' expected: ' + str(1))
-print('actual: ' + str(mount_moose.how_many(['Jack', 'jacK'])) + ' expected: ' + str(1))
+test('Mount Moose', mount_moose.title)
+test('The Snazzy Moose', mount_moose.artist)
+test(5, mount_moose.how_many(['John', 'Fred', 'Bob', 'Carl', 'RyAn']))
+test(2, mount_moose.how_many(['JoHn', 'Luke', 'AmAndA']))
+test(2, mount_moose.how_many(['Amanda', 'CalEb', 'CarL', 'Furgus']))
+test(1, mount_moose.how_many(['JOHN', 'FRED', 'BOB', 'CARL', 'RYAN', 'KATE']))
+test(1, mount_moose.how_many(['Jack', 'jacK']))
