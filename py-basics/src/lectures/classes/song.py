@@ -2,7 +2,16 @@
 # https://www.codewars.com/kata/6089c7992df556001253ba7d/python
 
 class Song:
-    pass
+    def __init__(self, title, artist):
+        self.title = title
+        self.artist = artist
+        self.listeners = set()
+
+    def how_many(self, people):
+        old_length = len(self.listeners)
+        for person in people:
+            self.listeners.add(person.lower())
+        return len(self.listeners) - old_length
 
 
 def test(expected, actual):
