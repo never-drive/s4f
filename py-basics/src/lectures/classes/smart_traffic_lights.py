@@ -7,3 +7,14 @@ class SmartTrafficLight:
 
     def turngreen(self):
         return
+
+
+def test(actual, expected):
+    checkmark = '✔️' if expected == actual else '❌'
+    print(f"{checkmark} expected -> actual: {str(expected)} -> {str(actual)}")
+
+
+t = SmartTrafficLight([42, '27th ave'], [72, '3rd st'])
+test(t.turngreen(), '3rd st')
+test(t.turngreen(), '27th ave')
+test(t.turngreen(), None)
