@@ -16,3 +16,16 @@ Throughout this tutorial, we’ll walk you through the creation of a basic **pol
 * Creating the Polls app
     * `python manage.py startapp polls`
 * Write your first view
+
+### Part 2
+
+* Database setup
+    * `python manage.py migrate`
+* Creating and activating models
+    * `python manage.py makemigrations polls`
+    * `python manage.py sqlmigrate polls 0001`
+    * `python manage.py migrate`
+* Playing with the API
+    * `python manage.py shell`
+* Introducing the Django Admin
+    * `python manage.py createsuperuser`
