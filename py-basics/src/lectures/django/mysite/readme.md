@@ -29,3 +29,9 @@ Throughout this tutorial, we’ll walk you through the creation of a basic **pol
     * `python manage.py shell`
 * Introducing the Django Admin
     * `python manage.py createsuperuser`
+
+### Part 3
+
+* Writing more views that actually do something
+* Raising a 404 error
+* Use the template system
