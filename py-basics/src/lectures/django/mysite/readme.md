@@ -40,3 +40,9 @@ Throughout this tutorial, we’ll walk you through the creation of a basic **pol
 
 * Write a minimal form
 * Use generic views: Less code is better
+
+### Part 5
+
+* Writing our first test
+    * `python manage.py test polls`
+* Test a view
