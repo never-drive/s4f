@@ -35,3 +35,8 @@ Throughout this tutorial, we’ll walk you through the creation of a basic **pol
 * Writing more views that actually do something
 * Raising a 404 error
 * Use the template system
+
+### Part 4
+
+* Write a minimal form
+* Use generic views: Less code is better
