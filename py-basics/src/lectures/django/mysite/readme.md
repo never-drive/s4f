@@ -46,3 +46,7 @@ Throughout this tutorial, we’ll walk you through the creation of a basic **pol
 * Writing our first test
     * `python manage.py test polls`
 * Test a view
+
+### Part 6
+
+* Customize the app’s look and feel
