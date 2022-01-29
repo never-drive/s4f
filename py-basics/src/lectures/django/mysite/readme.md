@@ -51,3 +51,7 @@ Throughout this tutorial, we’ll walk you through the creation of a basic **pol
 
 * Customize the app’s look and feel
 * Customize the admin form
+* Publish a REST API -> [Getting Started with Tastypie](https://django-tastypie.readthedocs.io/en/latest/tutorial.html)
+    * `pipenv install django-tastypie`
+    * `python manage.py startapp api`
+* JSON Formatter -> [Chrome Extension](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa)
