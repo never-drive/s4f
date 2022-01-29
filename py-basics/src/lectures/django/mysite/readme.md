@@ -50,3 +50,4 @@ Throughout this tutorial, we’ll walk you through the creation of a basic **pol
 ### Part 6
 
 * Customize the app’s look and feel
+* Customize the admin form
