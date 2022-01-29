@@ -18,12 +18,14 @@ from django.urls import path, include
 from django.urls.conf import re_path, include
 from tastypie.api import Api
 from polls.api.resources import QuestionResource
+from . import views
 
 
 v1_api = Api(api_name='v1')
 v1_api.register(QuestionResource())
 
 urlpatterns = [
+    path('', views.home),
     path('admin/', admin.site.urls),
     path('polls/', include('polls.urls')),
     re_path(r'^api/', include(v1_api.urls)),
