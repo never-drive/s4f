@@ -55,3 +55,4 @@ Throughout this tutorial, we’ll walk you through the creation of a basic **pol
     * `pipenv install django-tastypie`
     * `python manage.py startapp api`
 * JSON Formatter -> [Chrome Extension](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa)
+* Home page added

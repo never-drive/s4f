@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Home</h1>
+<ul>
+    <li><a href="{% url 'admin:index' %}">Polls Administration</a></li>
+    <li><a href="/api/v1/question">REST API</a></li>
+</ul>
+{% endblock %}
