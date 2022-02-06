@@ -5,3 +5,5 @@
 4. [objects](objects)
 5. [arrays](arrays)
 6. [functions](functions)
+7. [classes](classes)
+8. [react](react)
