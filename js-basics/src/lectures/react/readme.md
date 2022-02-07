@@ -12,7 +12,7 @@ Source Code at `codepen.io` -> [Starter Code](https://codepen.io/gaearon/pen/oWW
 ### Part 1
 
 * Start terminal from this folder
-* If `npx` is not on yout system
+* If `npx` is not on your system
     * `npm install -g npx​​​​​​​`
 * Create react app
     * `npx create-react-app tic-tac-toe-game`
@@ -20,7 +20,7 @@ Source Code at `codepen.io` -> [Starter Code](https://codepen.io/gaearon/pen/oWW
     * `cd tic-tac-toe-game`
     * `npm start`
 * Execute the tests
-    * `nmp test`
+    * `npm test`
 * Open `App.js` and peplace all the content inside the `<div className="App">` with 
     * `<h1>Hello React!</h1>`
 * Save the file and see the changes in the browser
@@ -42,3 +42,9 @@ Source Code at `codepen.io` -> [Starter Code](https://codepen.io/gaearon/pen/oWW
     * `import React from 'react';`
     * `import ReactDOM from 'react-dom';`
     * `import './index.css';`
+
+### Part 3
+
+* Passing Data Through Props
+* Making an Interactive Component
+* Developer Tools - React component tree
