@@ -29,3 +29,16 @@ Source Code at `codepen.io` -> [Starter Code](https://codepen.io/gaearon/pen/oWW
     * `const titleElement = screen.getByText(/Hello React!/i);`
     * `expect(titleElement).toBeInTheDocument();`
 * Save the file and run the tests again
+
+### Part 2
+
+* Now delete all source files
+    * `cd src`
+    * `del *`
+    * `cd ..`
+* Add a file named `index.css` in the `src/` folder with [this CSS code](https://codepen.io/gaearon/pen/oWWQNa?editors=0100).
+* Add a file named `index.js` in the `src/` folder with [this JS code](https://codepen.io/gaearon/pen/oWWQNa?editors=0010).
+* Add these three lines to the top of `index.js` in the `src/` folder:
+    * `import React from 'react';`
+    * `import ReactDOM from 'react-dom';`
+    * `import './index.css';`
