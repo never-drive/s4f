@@ -48,3 +48,14 @@ Source Code at `codepen.io` -> [Starter Code](https://codepen.io/gaearon/pen/oWW
 * Passing Data Through Props
 * Making an Interactive Component
 * Developer Tools - React component tree
+
+### Part 4 (Completing the Game)
+
+* Lifting State Up
+* Why Immutability Is Important
+    1. Complex Features Become Simple
+    2. Detecting Changes
+    3. Determining When to Re-Render in React
+* Function Component (Square is being converted)
+* Taking Turns
+* Declaring a Winner
