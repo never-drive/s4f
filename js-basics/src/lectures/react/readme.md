@@ -59,3 +59,11 @@ Source Code at `codepen.io` -> [Starter Code](https://codepen.io/gaearon/pen/oWW
 * Function Component (Square is being converted)
 * Taking Turns
 * Declaring a Winner
+
+### Part 5 (Adding Time Travel)
+
+* Storing a History of Moves
+* Lifting State Up, Again
+* Showing the Past Moves
+* Picking a Key
+* Implementing Time Travel
