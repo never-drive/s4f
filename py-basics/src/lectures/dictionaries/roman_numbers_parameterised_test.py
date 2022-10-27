@@ -9,5 +9,5 @@ from lectures.dictionaries.roman_numbers import solution
     ('IV', 4),
     ('MMVIII', 2008),
     ('MDCLXVI', 1666)])
-def test_all_cases(input, expected):
+def test_many_cases(input, expected):
     assert solution(input) == expected
